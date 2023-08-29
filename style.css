@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.body {
+  background: #fff;
+}
+#header {
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  animation: header 1s ease;
+  background: #0d162f;
+  animation: header 1s ease;
+}
+@keyframes header {
+  0% {
+    top: 100px;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.img {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.isuzu {
+  text-align: center;
+  line-height: 90px;
+  margin: 200px 0 0 0;
+  color: #fff;
+}
+.isuzu h1 {
+  font-size: 60px;
+}
+.isuzu h2 {
+  font-size: 33px;
+}
+.isuzu button {
+  background: red;
+  padding: 15px 30px;
+  border-radius: 25px;
+  margin: 30px 0 0 0;
+}
+#hero {
+  min-height: 100vh;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.imgs {
+  position: absolute;
+  top: 900px;
+  justify-content: space-between;
+}
+.words {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: -30px;
+  color: #fff;
+}
+.info {
+  margin-top: 400px;
+  background: #0d162f;
+  height: 600px;
+}
+
+.info-p h1 {
+  color: #fff;
+  font-size: 30px;
+}
+.imaged {
+  height: 500px;
+  height: 450px;
+  margin: 50px 0 0 50px;
+}
+.texter {
+  color: #fff;
+  margin: 0 0 50px 600px;
+  margin-top: -500px;
+}
+.texter h2 {
+  font-size: 40px;
+}
+.texter p {
+  font-size: 20px;
+}
+#typer {
+  margin-top: 100px;
+  background: #fff;
+}
+.typer-t {
+  color: black;
+  font-size: 40px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.inp {
+  padding: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  background: #f0eded;
+  color: #ee0505;
+}
+.typer {
+  background: #fff;
+}
+.contact {
+  margin: 90px 0 0 0;
+  font-size: 50px;
+}
+.blockth {
+  margin: 70px 30px;
+  width: 580px;
+  height: 400px;
+  background: #0d162f;
+  color: #fff;
+  text-align: center;
+}
+.blockhs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.blockhs h1 {
+  padding: 120px 0 0 45px;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.blockhs a {
+  color: #fff;
+  font-size: 20px;
+  border-bottom: none;
+}
+.img {
+  display: flex;
+  position: relative;
+  left: 200px;
+  top: -500px;
+}
